@@ -130,6 +130,16 @@ img {
 
  @media screen and (max-width: 768px){
     .container{
-        max-width: 768px;
+        width: 100%;
+    }
+ }
+
+ @media screen and(max-width: 480px){
+    .lesson .row{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .row .col{
+        width: 100%;
     }
  }

@@ -134,12 +134,12 @@ img {
     }
  }
 
- @media screen and(max-width: 480px){
-    .lesson .row{
-        flex-wrap: wrap;
+ @media screen and (max-width: 480px){
+    .row {
         flex-direction: column;
+        flex-wrap: wrap;
     }
-    .row .col{
+    .lesson .col{
         width: 100%;
     }
  }
